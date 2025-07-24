@@ -52,7 +52,7 @@ Experience the live portfolio at (https://nitish-sharma935.github.io/Portfolio/)
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/nitish-sharma935/Portfolio-Website
+git clone https://github.com/Nitish-Sharma935/Portfolio-Website
 ```
 
 2️⃣ Navigate to project directory:
