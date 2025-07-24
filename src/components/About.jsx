@@ -40,11 +40,9 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
+       I’m a self-taught MERN Stack Developer with a strong foundation in web development and a passion for building real-world applications. With a background in science (B.Sc. Non-Medical) and an advanced diploma in computer applications, I’ve transitioned into tech through hands-on learning and project work. Currently, I’m interning at Kaspro Solution Pvt. Ltd., where I contribute to full-stack applications using React, Node.js, and MongoDB. I'm a quick learner, multilingual communicator, and always eager to explore new technologies—especially in areas like AI tools and modern frontend development. I’m now seeking opportunities in companies that value innovation, collaboration, and growth.
+
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

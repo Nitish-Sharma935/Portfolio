@@ -1,7 +1,7 @@
 import {
   c,
-  python,
-  java,
+
+  javascript_icon,
   cpp,
   javascript,
   html,
@@ -9,17 +9,15 @@ import {
   reactjs,
   tailwind,
   nodejs,
+
   git,
-  edunet,
-  weatherpedia,
-  termpw,
-  payloadmaster,
+  ecommerce,
   threejs,
-  mhft,
-  sketcher,
-  mathwork,
-  CompileVortex,
-  eduskill,
+
+  expenses,
+  blog,
+  kaspro,
+
 } from "../assets";
 
 export const navLinks = [
@@ -38,10 +36,10 @@ export const navLinks = [
 ];
 
 export const services = [
+   { title: "JavaScript", icon: javascript_icon },
   { title: "C", icon: c },
   { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
-  { title: "Java", icon: java },
+ 
 ];
 
 export const technologies = [
@@ -57,114 +55,59 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    title: "Mern Stack Intern",
+    company_name: "Kaspro Solutions Pvt. Ltd.",
+    icon: kaspro,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Mar 2025 - Sep 2025",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Contributed to developing and maintaining real-world MERN stack applications used by actual customers.",
+      "Worked on both frontend (React.js, Tailwind CSS) and backend (Node.js, Express.js, MongoDB), ensuring smooth data flow and feature implementation.",
+      "Optimized UI performance by refactoring components, using React hooks, and lazy-loading assets.",
+      "Gained hands-on experience working in a development team, attending stand-ups, and following Agile methodology.",
     ],
   },
-  {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
-    iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
-    points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
-    ],
-  },
-  {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
-    iconBg: "#161329",
-    date: "June 2023 - July 2023",
-    points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
-    ],
-  },
+
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Expense Tracker",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "A personal finance management app built using React that helps users track their income, expenses, and loans. The app features an intuitive UI and uses local storage to store user data persistently in the browser. It also includes downloadable monthly and annual reports in PDF and Excel format.",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "css3", color: "pink-text-gradient" },
+      { name: "Personal Tracker", color: "yellow-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    image: expenses,
+    source_code_link: "https://github.com/Nitish-Sharma935/Expense-Tracker",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "E-Commerce",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "A full-featured E-Commerce platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js). This application supports complete admin control, secure user authentication, dynamic product management, cart handling, and a responsive shopping experience with real-time backend data.",
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
       { name: "css", color: "green-text-gradient" },
       { name: "Javascript", color: "pink-text-gradient" },
     ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    image: ecommerce,
+    source_code_link: "https://github.com/Nitish-Sharma935/E-commerce",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "Blog App",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "Developed a full-featured blogging platform using the MERN stack (MongoDB, Express.js, React.js, Node.js). The application allows users to register, write and submit blog posts, and interact through comments. Each blog post is subject to admin approval before being published on the homepage, ensuring content quality and moderation.",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
+       { name: "HTML", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "Javascript", color: "pink-text-gradient" },
     ],
-    image: mhft,
+    image: blog,
     source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
+      "https://github.com/Nitish-Sharma935/Blog-App",
   },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
 
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
-  },
 ];
