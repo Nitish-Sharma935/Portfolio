@@ -40,7 +40,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-       I’m a self-taught MERN Stack Developer with a strong foundation in web development and a passion for building real-world applications. With a background in science (B.Sc. Non-Medical) and an advanced diploma in computer applications, I’ve transitioned into tech through hands-on learning and project work. Currently, I’m interning at Kaspro Solution Pvt. Ltd., where I contribute to full-stack applications using React, Node.js, and MongoDB. I'm a quick learner, multilingual communicator, and always eager to explore new technologies—especially in areas like AI tools and modern frontend development. I’m now seeking opportunities in companies that value innovation, collaboration, and growth.
+       I am a web developer skilled in the MERN stack (MongoDB, Express.js, React, and Node.js). I create web applications that are responsive, reliable, and easy to use. My portfolio includes projects where I built features from front-end design to back-end logic, handled databases, and managed deployment. I enjoy writing clear code and solving problems. I keep my skills current by learning new tools and techniques. I’m open to working with others to build useful digital solutions.
 
 
       </motion.p>

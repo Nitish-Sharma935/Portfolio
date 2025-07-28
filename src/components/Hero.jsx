@@ -21,7 +21,7 @@ const Hero = () => {
          
             <Typewriter
               options={{
-                strings: ["React", "MongoDb & Express", "Node Js", "Redux"],
+                strings: ["Mern Stack","React & Redux", "MongoDb & Express", "Node Js"],
                 autoStart: true,
                 loop: true,
                 loopCount: Infinity,
