@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { close, menu } from '../assets';
-
+import logo from '../assets/my_logo.png';
 import { navLinks } from '../constants';
 import { styles } from '../styles';
 
@@ -62,7 +62,7 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
+            <img src={logo} alt="logo" className="w-9 h-9 object-contain" style={{borderRadius: "80%"}} />
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
               NITISH&nbsp;
               <span className="sm:block hidden">KUMAR</span>
